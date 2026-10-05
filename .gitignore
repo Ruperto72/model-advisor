@@ -1,0 +1,37 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Test results
+.pytest_cache/
+coverage/
+.coverage
+
+# Misc
+.env
+.env.local
