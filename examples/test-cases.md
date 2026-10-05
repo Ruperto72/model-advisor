@@ -32,6 +32,36 @@ These are real-world scenarios the skill has been tested on.
 
 ---
 
+## Test 4: Swedish — Simple Ignition Change
+
+**Scenario:**
+> "Räcker Haiku för att lägga till ett par nya taggar i en befintlig UDT och koppla dem till larm? Jag har gjort likadant många gånger."
+
+**Recommendation:** Haiku
+**Why:** Familiar, repetitive task; the solution is clear; pure execution. The answer should be in Swedish.
+
+---
+
+## Test 5: Swedish — Unclear Production Error
+
+**Scenario:**
+> "Vilken modell ska jag köra? Min PWA visar gammal data på vissa mobiler men inte på datorn, trots att jag har bumpat CACHE_NAME. Jag fattar inte varför."
+
+**Recommendation:** Opus
+**Why:** Root cause unknown; inconsistent behaviour across devices; needs real exploration. The answer should be in Swedish.
+
+---
+
+## Test 6: Should NOT Trigger
+
+**Scenario:**
+> "Kan du lägga till en knapp för mörkt läge i inställningsvyn?"
+
+**Recommendation:** — (skill should not activate)
+**Why:** An ordinary development request; the user isn't asking about model choice.
+
+---
+
 ## Adding Your Own Test Cases
 
 Did you find an edge case? Submit it as a PR with:

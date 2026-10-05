@@ -1,6 +1,6 @@
 ---
 name: model-advisor
-description: Choose the right Claude model (Haiku, Sonnet, or Opus) for any task. Ask directly ("which model for this?") or get automatic recommendations when you describe your work. Recommends Haiku for execution and iteration, Sonnet for moderate complexity, and Opus for architecture, design, and new problem-solving. Triggers on development tasks, debugging, optimization, and any work where picking the right tool matters.
+description: Choose the right Claude model (Haiku, Sonnet, or Opus) for a task. Use when the user asks which model to use, in English or Swedish — e.g. "which model for this?", "Haiku or Opus?", "is Sonnet enough?", "vilken modell ska jag använda?", "vilken modell för det här?", "Haiku eller Opus?", "räcker Sonnet?", "behöver jag Opus till det här?" — or when they describe upcoming work and are unsure how much reasoning power it needs. Recommends Haiku for execution and iteration, Sonnet for moderate complexity, and Opus for architecture, design, and new problem-solving. Do not trigger on ordinary development requests where model choice isn't in question. Answer in the user's language.
 ---
 
 # Model Advisor
